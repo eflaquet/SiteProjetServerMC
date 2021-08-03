@@ -2,7 +2,6 @@
 //ini_set('display_errors', 'off');
 // get this file at: https://github.com/alecgorge/jsonapi/raw/master/sdk/php/JSONAPI.php
 $ip = "127.0.0.1";
-$nombre = 0;
 // Ip du serveur
 $port = 20059; //port du plugin (par défaut : 20059)
 $utilisateur = "admin"; //nom d'utilisateur
@@ -28,6 +27,7 @@ if ($onlinePlayers = $api->call("players.online"))
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Accuiel</title>
     <link rel="stylesheet" href="CSS/cssindex.css">
+    <script type="text/javascript" src="JS/API_source.js"></script>
 </head>
 
 <body>
@@ -84,21 +84,21 @@ if ($onlinePlayers = $api->call("players.online"))
                     </ul>
                 </li>
             </nav>
-        </div><spam class="left-baniere"></spam>
+        </div>
         <div class="sous-nav">
             <div class="server-connect">
-                NBConnecter :   <?php echo sizeof($onlinePlayers[0]['success']); ?> /  <?php echo $maxPlayers[0]['success']; ?>
+                NBConnecter :  <spam id ="online_players"></spam>  /  <?php echo $maxPlayers[0]['success']; ?>
             </div>
         </div>
         
     </header>
     <section>
         <div class="server-description">
-            <p>Description</p>
+            <p>Description ici ce trouve la description du server minecraft actuel en developement du server</p>
         </div>
         <div>
             <figure>
-                <img src="blob:null/2d8d1bae-fb85-4cdf-9254-334db34cdb2d" alt="">
+                
             </figure>
         </div>
     </section>

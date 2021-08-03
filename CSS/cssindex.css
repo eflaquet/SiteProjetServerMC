@@ -1,78 +1,98 @@
-header .baniere {
-    background-color: black;
-    height: 200px;
-    color: white;
-}
-
-header #wrap {
-    width: 100%;
-    height: 50px;
-    margin: 0;
-    z-index: 99;
-    position: relative;
-    background-color: #444444;
-}
-
-header .navbar {
-    background-color: gray;
-    height: 50px;
-    color: white;
-    padding-left: 500px;
-}
-
-header .navbar li {
-    height: auto;
-    width: 135.8px;
-    float: left;
-    text-align: center;
-    list-style: none;
-    font: normal bold 13px/1em Arial, Verdana, Helvetica;
-    padding: 0;
-    margin: 0;
-    background-color: #444444;
-}
-
-header .navbar a {
-    padding: 18px 0;
-    /*border-left: 1px solid #ccc9c9;*/
-    text-decoration: none;
-    color: white;
-    display: block;
-}
-
-header .navbar li:hover,
-a:hover {
-    background-color: #444444;
-}
-
-header .navbar li ul {
-    display: none;
-    height: auto;
-    margin: 0;
-    padding: 0;
-}
-
-header .navbar li:hover ul {
-    display: block;
-}
-
-header .navbar li ul li {
-    background-color: #444444;
-}
-
-header .navbar li ul li a {
-    border-left: 1px solid #444444;
-    border-right: 1px solid #444444;
-    border-top: 1px solid #c9d4d8;
-    border-bottom: 1px solid #444444;
-}
-
-header .navbar li ul li a:hover {
-    background-color: #a3a1a1;
-}
-
-header .sous-nav {
-    background-color: gray;
-    height: 50px;
-    color: white;
-}
+    header .baniere {
+        background-color: black;
+        height: 200px;
+        color: white;
+    }
+    
+    header #wrap {
+        width: 100%;
+        height: 50px;
+        margin: 0;
+        z-index: 99;
+        position: relative;
+        background-color: #444444;
+    }
+    
+    header .navbar {
+        background-color: green;
+        height: 50px;
+        color: white;
+        padding-left: 500px;
+    }
+    
+    header .navbar li {
+        height: auto;
+        width: 135.8px;
+        float: left;
+        text-align: center;
+        list-style: none;
+        font: normal bold 13px/1em Arial, Verdana, Helvetica;
+        padding: 0;
+        margin: 0;
+        background-color: #1eb443;
+    }
+    
+    header .navbar a {
+        padding: 18px 0;
+        /*border-left: 1px solid #ccc9c9;*/
+        text-decoration: none;
+        color: white;
+        display: block;
+    }
+    
+    header .navbar li:hover,
+    a:hover {
+        background-color: #1eb443;
+    }
+    
+    header .navbar li ul {
+        display: none;
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+    
+    header .navbar li:hover ul {
+        display: block;
+    }
+    
+    header .navbar li ul li {
+        background-color: #1eb443;
+    }
+    
+    header .navbar li ul li a {
+        border-left: 1px solid #1eb443;
+        border-right: 1px solid #1eb443;
+        border-top: 1px solid #060707;
+        border-bottom: 1px solid #1eb443;
+    }
+    
+    header .navbar li ul li a:hover {
+        background-color: #95c020;
+    }
+    
+    header .sous-nav {
+        background-color: green;
+        height: 50px;
+        color: white;
+    }
+    
+    header .sous-nav .server-connect {
+        padding: 18px 0;
+        padding-left: 850px;
+        text-decoration: none;
+        color: white;
+        display: block;
+        position: absolute;
+    }
+    
+    header .left-baniere {
+        background-color: black;
+        height: 1000px;
+        width: 100px;
+        color: white;
+    }
+    
+    section .server-description {
+        padding: 30px 800px 10 300px;
+    }

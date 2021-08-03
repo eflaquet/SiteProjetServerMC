@@ -14,8 +14,9 @@ $api = new JSONAPI($ip, $port, $utilisateur, $motdepasse, $salt); // on affiche 
 
 //echo "</br>".$test[0]['success'][0]['name'];
 //if (!$api->call("")) echo "non";
-if ($test = $api->call("players.online"))
-    echo sizeof($test[0]['success']);
+if ($onlinePlayers = $api->call("players.online"))
+    echo sizeof($onlinePlayers[0]['success']);
+    if($maxPlayers = $api->call("getPlayerLimit"))
    print_r($api->call("getPlayerLimit"));
 ?>
 <!DOCTYPE html>
@@ -83,13 +84,16 @@ if ($test = $api->call("players.online"))
                     </ul>
                 </li>
             </nav>
-        </div>
+        </div><spam class="left-baniere"></spam>
         <div class="sous-nav">
-
+            <div class="server-connect">
+                NBConnecter :   <?php echo sizeof($onlinePlayers[0]['success']); ?> /  <?php echo $maxPlayers[0]['success']; ?>
+            </div>
         </div>
+        
     </header>
     <section>
-        <div>
+        <div class="server-description">
             <p>Description</p>
         </div>
         <div>

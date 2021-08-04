@@ -27,6 +27,7 @@ if ($onlinePlayers = $api->call("players.online"))
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Accuiel</title>
     <link rel="stylesheet" href="CSS/cssindex.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     <script type="text/javascript" src="JS/API_source.js"></script>
 </head>
 
@@ -103,7 +104,17 @@ if ($onlinePlayers = $api->call("players.online"))
         </div>
     </section>
     <footer>
-
+        <div class="sous-footer">
+        <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
+        <ul class="list-inline">
+                <li class="list-inline-item"><a href="#">Accueil</a></li>
+                <li class="list-inline-item"><a href="#">..</a></li>
+                <li class="list-inline-item"><a href="#">..</a></li>
+                <li class="list-inline-item"><a href="#">..</a></li>
+                <li class="list-inline-item"><a href="#">..</a></li>
+            </ul>
+            <p class="copyright">Company Name © 2021</p>    
+        </div>
     </footer>
 </body>
 

@@ -12,4 +12,4 @@ function onelinePlayer() {
     });
 
 }
-setInterval(onelinePlayer, 30000);
+setInterval(onelinePlayer, 3000);

@@ -1,77 +1,7 @@
-body {
-    position: relative;
-}
-
-header .baniere {
-    background-color: black;
-    height: 200px;
-    color: white;
-}
-
-header #wrap {
-    width: 100%;
-    height: 50px;
-    margin: 0;
-    z-index: 99;
-    position: relative;
-    background-color: #444444;
-}
-
-header .navbar {
-    background-color: green;
-    height: 50px;
-    color: white;
-    padding-left: 500px;
-}
-
-header .navbar li {
-    height: auto;
-    width: 135.8px;
-    float: left;
-    text-align: center;
-    list-style: none;
-    font: normal bold 13px/1em Arial, Verdana, Helvetica;
-    padding: 0;
-    margin: 0;
-    background-color: #1eb443;
-}
-
-header .navbar a {
-    padding: 18px 0;
-    /*border-left: 1px solid #ccc9c9;*/
-    text-decoration: none;
-    color: white;
-    display: block;
-}
-
-header .navbar li:hover a:hover {
-    background-color: black;
-}
-
-header .sous-nav {
-    background-color: green;
-    height: 50px;
-    color: white;
-}
-
-header .sous-nav .server-connect {
-    padding: 18px 0;
-    padding-left: 850px;
-    text-decoration: none;
-    color: white;
-    display: block;
-    position: absolute;
-}
-
-section .server-description {
-    padding: 30px 1050 10 300px;
-}
-
 footer .sous-footer {
     /*padding: 40px 0;*/
     background: #ccc;
     /*color: #ffffff;  */
-    /*margin-top: 430px;*/
 }
 
 footer .sous-footer ul {

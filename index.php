@@ -41,48 +41,22 @@ if ($onlinePlayers = $api->call("players.online"))
                 <li><a href="#">Accueil</a></li>
                 <li>
                     <a href="#">Forum</a>
-                    <ul>
-                        <li><a href="#">Demande d'aide</a></li>
-                        <li><a href="#">...</a></li>
-                        <li><a href="#">...</a></li>
-                        <li><a href="#">...</a></li>
-                    </ul>
                 </li>
                 <li>
                     <a href="#">..</a>
-                    <ul>
-                        <li><a href="#">.</a></li>
-                        <li><a href="#">.</a></li>
-                        <li><a href="#">.</a></li>
-                    </ul>
+                    
                 </li>
                 <li>
                     <a href="#">.</a>
-                    <ul>
-                        <li><a href="#">.</a></li>
-                        <li><a href="#">.</a></li>
-                        <li><a href="#">.</a></li>
-                        <li><a href="#">.</a></li>
-                        <li><a href="#">.</a></li>
-                    </ul>
+                   
                 </li>
                 <li>
                     <a href="#">.</a>
-                    <ul>
-                        <li><a href="#">.</a></li>
-                        <li><a href="#">.</a></li>
-                        <li><a href="#">.</a></li>
-                        <li><a href="#">.</a></li>
-                    </ul>
+                   
                 </li>
                 <li>
                     <a href="#">.</a>
-                    <ul>
-                        <li><a href="#">.</a></li>
-                        <li><a href="#">.</a></li>
-                        <li><a href="#">.</a></li>
-                        <li><a href="#">.</a></li>
-                    </ul>
+                   
                 </li>
             </nav>
         </div>
@@ -93,16 +67,12 @@ if ($onlinePlayers = $api->call("players.online"))
         </div>
         
     </header>
-    <section>
+    <main>
+        <section>
         <div class="server-description">
-            <p>Description ici ce trouve la description du server minecraft actuel en developement du server</p>
-        </div>
-        <div>
-            <figure>
-                
-            </figure>
-        </div>
-    </section>
+            eeee
+        </div>    </section>
+    </main>
     <footer>
         <div class="sous-footer">
         <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
